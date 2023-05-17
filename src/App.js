@@ -1,16 +1,21 @@
 
 import './App.css';
 import Descargado from './Componentes/Descargado';
- import Imgmemes from './Componentes/Imgmemes'; 
-/*import ImgMemes2 from './Componentes/ImgMemes2';*/
+ import DragImgmemes from './Componentes/DragImgmemes';
+import EjemploDrag from './Componentes/EjemploDrag';
+import Peliculas from './Componentes/Peliculas';
 
 function App() {
   return (
     <div className="App">
       
-      <Descargado/>
-     <Imgmemes/>
-      {/*  <ImgMemes2/> */}
+      {/* <Descargado/>*/}
+     <DragImgmemes/> 
+      {/*<EjemploDrag/>*/}
+
+      {/* <ImgMemes2/> */}
+
+      {/* <Peliculas/> */}
 
     </div>
   );
